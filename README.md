@@ -135,12 +135,7 @@ This setup demonstrates **real-time predictive analytics**, which could be integ
 
 ---
 
-## 👩‍💻 Author
 
-**Sara Souhail**  
-Master’s student in Artificial Intelligence and Emerging Technologies  
-[GitHub](https://github.com/SaraSouhail) • [LinkedIn](https://www.linkedin.com/in/sara-souhail/)
 
----
 
 ⭐ *If you found this project interesting, don’t forget to star the repo!*
