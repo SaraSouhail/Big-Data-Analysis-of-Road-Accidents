@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Datasets
+*.csv
+*.parquet
+
+# Artifacts and models
+artifacts/
+models/
+cleaned_data_parquet/
+notebooks/artifacts/
+notebooks/data/
+]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# System files
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.log
+
