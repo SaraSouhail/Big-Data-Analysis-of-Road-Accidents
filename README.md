@@ -18,19 +18,22 @@ The goal is to build a **data pipeline** capable of:
 
 ## 🧱 Project Structure
 
+```bash
 bigdata-accidents/
 │
-├── dataset/ # Contains the original dataset (2.9 GB, excluded from repo)
-│ └── US_Accidents.csv
+├── dataset/                         # Contains the original dataset (2.9 GB, excluded from repo)
+│   └── US_Accidents.csv
 │
-├── notebooks/ # All Jupyter notebooks (analysis, preprocessing, training, streaming)
-│ ├── US_Accidents_Analysis.ipynb # Data preprocessing, cleaning, feature engineering with Spark
-│ ├── train.ipynb # file for testing Model training (Decision Tree, Logistic Regression, Random Forest) 
-│ ├── train_producer.ipynb # file contains the best model training  Kafka producer for real-time simulation and 
-│ ├── kafka_consumer_2.ipynb # Kafka consumer for streaming predictions
-│ └── ...
-├── .gitignore # Excludes large files and temporary artifacts
-└── README.md # Project documentation
+├── notebooks/                       # All Jupyter notebooks (analysis, preprocessing, training, streaming)
+│   ├── US_Accidents_Analysis.ipynb  # Data preprocessing, cleaning, and feature engineering with Spark
+│   ├── train.ipynb                  # Model testing with Decision Tree, Logistic Regression, and Random Forest
+│   ├── train_producer.ipynb         # Best model training + Kafka producer for real-time simulation
+│   ├── kafka_consumer_2.ipynb       # Kafka consumer for streaming predictions
+│   └── ...
+│
+├── .gitignore                       # Excludes large files and temporary artifacts
+└── README.md                        # Project documentation
+```
 
 ---
 
